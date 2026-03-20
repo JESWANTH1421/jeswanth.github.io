@@ -2,92 +2,187 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jeswanth Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeswanth K | Portfolio</title>
 
     <style>
         body {
-            font-family: Arial;
             margin: 0;
-            background: #0f172a;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
             color: white;
         }
+
         header {
-            background: #1e293b;
-            padding: 20px;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #38bdf8;
+        }
+
+        h2 {
+            color: #22c55e;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #38bdf8;
+        }
+
+        p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #22c55e;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
             text-align: center;
         }
-        section {
-            padding: 30px;
-        }
-        h2 {
-            color: #38bdf8;
-        }
-        .card {
+
+        .project {
             background: #1e293b;
-            padding: 15px;
-            margin: 10px 0;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        img {
+            margin-top: 15px;
             border-radius: 10px;
         }
-        a {
-            color: #38bdf8;
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
 
+<!-- HERO -->
 <header>
-    <h1>👋 Jeswanth K</h1>
-    <p>Data Analyst | AI/ML Enthusiast</p>
+    <h1>Hi, I'm Jeswanth K 👋</h1>
+    <h3>Aspiring AI/ML Engineer | Data Analyst</h3>
+
+    <p>
+        I build intelligent systems and data-driven solutions to solve real-world problems.
+        Passionate about Machine Learning, Computer Vision, and Analytics.
+    </p>
+
+    <a href="#projects">View Projects</a>
+    <a href="https://github.com/JESWANTH1421" target="_blank">GitHub</a>
+    <a href="#">Resume</a>
 </header>
 
-<section>
-    <h2>🚀 About Me</h2>
-    <p>I am passionate about Data Analytics and Artificial Intelligence, building real-world projects.</p>
-</section>
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
 
-<section>
-    <h2>🧠 Skills</h2>
-    <div class="card">Python, SQL, Machine Learning, Power BI</div>
-</section>
+    <div class="project">
+        <h3>Hand Gesture Recognition System</h3>
 
-<section>
-    <h2>📜 Certifications</h2>
-    <div class="card">Google Data Analytics – Coursera</div>
-    <div class="card">Infosys Springboard Certification</div>
-</section>
+        <p><b>Problem:</b> Need for touchless interaction in real-time environments</p>
 
-<section>
-    <h2>📚 Learning Path</h2>
-    <div class="card">
-        ✔ Python Basics<br>
-        ✔ Data Analysis<br>
-        ✔ Machine Learning<br>
-        ✔ Deep Learning (Ongoing)
-    </div>
-</section>
+        <p><b>Solution:</b> Developed a computer vision model using OpenCV to recognize hand gestures</p>
 
-<section>
-    <h2>💻 Projects</h2>
-    <div class="card">
-        <h3>Hand Gesture Recognition</h3>
-        <p>Built using OpenCV and ML</p>
+        <p><b>Tech Stack:</b> Python, OpenCV, NumPy</p>
+
+        <p><b>Impact:</b> Enabled real-time gesture-based control</p>
+
+        <img src="project1.png" width="300">
+
+        <br>
+        <a href="#">View Code</a>
     </div>
 
-    <div class="card">
-        <h3>Customer Data Ownership Module</h3>
-        <p>Users can manage and delete personal data</p>
+    <div class="project">
+        <h3>AI Marketing Application</h3>
+
+        <p><b>Role:</b> Developed Customer Data Ownership Module</p>
+
+        <p><b>Features:</b></p>
+        <ul>
+            <li>View user data</li>
+            <li>Manage permissions</li>
+            <li>Delete personal data</li>
+        </ul>
+
+        <p><b>Tech Stack:</b> (Add your tech here)</p>
+
+        <p><b>Impact:</b> Improved user data privacy and control</p>
+
+        <img src="project2.png" width="300">
+
+        <br>
+        <a href="#">View Project</a>
     </div>
+
 </section>
 
+<!-- SKILLS -->
 <section>
-    <h2>🔗 Links</h2>
-    <p>
-        LinkedIn: <a href="https://www.linkedin.com/">Your Link</a><br>
-        GitHub: <a href="https://github.com/">Your GitHub</a>
-    </p>
+    <h2>Skills</h2>
+
+    <ul>
+        <li><b>Programming:</b> Python, Java</li>
+        <li><b>Data Analytics:</b> Excel, Power BI, SQL</li>
+        <li><b>AI/ML:</b> Pandas, NumPy, OpenCV</li>
+        <li><b>Tools:</b> Git, VS Code</li>
+    </ul>
 </section>
+
+<!-- HIGHLIGHTS -->
+<section>
+    <h2>Portfolio Highlights</h2>
+
+    <ul>
+        <li>✔ Built real-time ML projects</li>
+        <li>✔ Experience in Computer Vision</li>
+        <li>✔ Strong Data Analysis skills</li>
+        <li>✔ Active on GitHub</li>
+    </ul>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>Contact</h2>
+
+    <p>Email: yourmail@gmail.com</p>
+    <p>GitHub: https://github.com/JESWANTH1421</p>
+    <p>LinkedIn: your-linkedin-link</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>⭐ If you like my work, feel free to connect or collaborate!</p>
+</footer>
 
 </body>
 </html>
